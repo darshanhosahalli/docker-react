@@ -6,6 +6,3 @@ services:
       dockerfile: dockerfile
     ports:
       - "8080:80"
-    volumes:
-      - /usr/app/node_modules
-      - .:/usr/app
